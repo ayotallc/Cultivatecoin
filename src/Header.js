@@ -42,7 +42,7 @@ export default function Header() {
    <a href="https://exchange.pancakeswap.finance/#/add/BNB/0x8a3E4D92396B85a319986442C402b94e623a0371" className="navigation_link__2Deuz tablet">PancakeSwap</a>
    <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Login</a>
    <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Signup</a>
-   <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Connect with Metamask</a>
+   <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Connect Wallet</a>
    {/* <a className="navigation_link__2Deuz tablet">Stake</a> */}
    {/* <a href="/#" className="navigation_link__2Deuz">How it works</a> */}
    {/* <a className="navigation_link__2Deuz">Artists</a> */}
@@ -59,7 +59,7 @@ export default function Header() {
          </Modal>
       {/* <button className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Stake</span></button> */}
       <a onClick={onOpenModal} className="button_button__320IU wallet_connectButton__3NDuJ"><span className="" style={{color:"#fff"}}>Login</span></a><a onClick={onOpenModal} className="button_button__320IU wallet_connectButton__3NDuJ"><span className="" style={{color:"#fff"}}>Signup</span></a>
-      <a href="/#" className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Connect with Metamask</span></a>
+      <a href="/#" className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Connect Wallet</span></a>
       </div>
       <button onClick={navbarOpen} className="button_button__320IU header_hamburgerButton__1aTb8">
          <span className="" style={{color:"#fff"}}>
