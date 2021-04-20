@@ -24,7 +24,7 @@ export default function NewHome() {
           <p className="content-r">
             Each box mints
              as an animated NFT
-             split<br /> into 500 editions for $999.
+             split<br /> into 500 editions for 2BNB.
           </p>
         </div>
       </div>
