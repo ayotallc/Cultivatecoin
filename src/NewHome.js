@@ -25,7 +25,7 @@ export default function NewHome() {
             Each box mints
              as an animated NFT
              split<br /> into 500 editions for 2BNB.Our NFTs will<br/>
-             be launched on Bakeryswap on 5/1/21
+             be launched on Bakeryswap on 5/1/21.
           </p>
         </div>
       </div>
