@@ -59,7 +59,7 @@ export default function Header() {
          </Modal>
       {/* <button className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Stake</span></button> */}
       <a onClick={onOpenModal} className="button_button__320IU wallet_connectButton__3NDuJ"><span className="" style={{color:"#fff"}}>Login</span></a><a onClick={onOpenModal} className="button_button__320IU wallet_connectButton__3NDuJ"><span className="" style={{color:"#fff"}}>Signup</span></a>
-      <a href="/#" className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Connect Wallet</span></a>
+      <a onClick={onOpenModal} className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm"><span className="" style={{color:"#fff"}}>Connect Wallet</span></a>
       </div>
       <button onClick={navbarOpen} className="button_button__320IU header_hamburgerButton__1aTb8">
          <span className="" style={{color:"#fff"}}>
