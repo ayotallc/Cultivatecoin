@@ -40,6 +40,7 @@ export default function Header() {
    </nav> */}
    <nav id="gautam" className="navigation_navigation__3kcwo navigation_mobileNavigation__116Aa">
    <a href="https://exchange.pancakeswap.finance/#/add/BNB/0x8a3E4D92396B85a319986442C402b94e623a0371" className="navigation_link__2Deuz tablet">PancakeSwap</a>
+   <a href="https://www.bakeryswap.org/#/add/0x8a3E4D92396B85a319986442C402b94e623a0371/ETH" className="navigation_link__2Deuz tablet">BakerySwap</a>
    <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Login</a>
    <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Signup</a>
    <a href="/#" onClick={onOpenModal} className="navigation_link__2Deuz mobile">Connect Wallet</a>
@@ -51,6 +52,7 @@ export default function Header() {
    <div className="header_right__vh4PD">
       <div className="wallet_wallet__2hFnB">
          <a href="https://exchange.pancakeswap.finance/#/add/BNB/0x8a3E4D92396B85a319986442C402b94e623a0371" className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm">PancakeSwap</a>
+         {/* <a href="https://www.bakeryswap.org/#/add/0x8a3E4D92396B85a319986442C402b94e623a0371/ETH" className="button_button__320IU button_buttonFilled__1eZ4c wallet_hideButtons__1qCVm">BakerySwap</a> */}
          <Modal open={open} onClose={onCloseModal}  center>
          <content className="comingSoon">
   {/* <p>Be ready, we are launching soon.</p> */}
